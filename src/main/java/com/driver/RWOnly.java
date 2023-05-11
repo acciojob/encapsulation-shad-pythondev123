@@ -8,8 +8,9 @@ public class RWOnly {
     public void setName(String name){
         this.name= name;
     }
-    public void getName(String name){
+    public String getName(){
         this.name= name;
+        return name;
     }
 
 }
